@@ -91,6 +91,8 @@ You can see it more of a monitor command tool than anything else.
 ## Installation ##
 GoAccess can be compiled and used on *nix systems.
 
+### Build from release
+
 Download, extract and compile GoAccess with:
 
     $ wget http://tar.goaccess.io/goaccess-1.2.tar.gz
@@ -99,6 +101,13 @@ Download, extract and compile GoAccess with:
     $ ./configure --enable-utf8 --enable-geoip=legacy
     $ make
     # make install
+
+#### Dependencies
+
+##### Debian / Ubuntu
+
+    # apt-get install libgeoip-dev libncursesw5-dev
+
 
 ### Build from GitHub (Development) ###
 
